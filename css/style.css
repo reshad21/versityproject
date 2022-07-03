@@ -1,0 +1,261 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #575757;
+}
+
+
+/* header secton */
+
+.header_bg {
+    background-color: #ddd;
+}
+
+.header-top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.topber {
+    padding: 20px 0;
+    text-align: right;
+}
+
+.topber a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(70, 47, 230, 0.82);
+    border-radius: 10px;
+    margin-right: 7px;
+    color: aqua;
+    box-shadow: 5px 5px 4px #75787b;
+}
+
+.topber a:hover {
+    color: aqua;
+    box-shadow: none;
+}
+
+
+/* pop up box */
+
+.popup {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    top: -12px;
+    left: 0;
+}
+
+.popup_content {
+    width: calc(100% - 75%);
+    height: 300px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.popup_content span {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popup_content span i {
+    font-size: 30px;
+    color: #2a2b2c;
+}
+
+.popup_content img {
+    width: 150px;
+    height: 150px;
+}
+
+.popup_content input {
+    width: 240px;
+    margin-bottom: 10px;
+}
+
+
+/* dashborde content */
+
+.dashbord_bg {
+    background-color: #ddd;
+}
+
+.adminlogo {
+    padding: 20px 0;
+}
+
+.adminlogo img {
+    width: 50px;
+    height: 50px;
+}
+
+.sidebarsection {
+    background-color: rgba(70, 47, 230, 0.82);
+    height: 100vh;
+    width: calc(100% - 85%);
+    float: left;
+    height: 1048px;
+}
+
+.maincontentsection {
+    float: left;
+    width: calc(100% - 40%);
+    margin-left: 10%;
+    border: 2px solid #9f9f9f;
+    padding: 20px;
+}
+
+.sidebarsection .menu {}
+
+.sidebarsection .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebarsection .menu ul li {
+    border-bottom: 2px solid #fff;
+}
+
+.sidebarsection .menu ul li a {
+    color: aqua;
+    display: block;
+    padding: 10px 15px;
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sidebarsection .menu ul li a:hover {
+    color: rgba(70, 47, 230, 0.82);
+    background-color: aqua;
+}
+
+
+/* student_info_tabel */
+
+.student_info_tabel {
+    width: calc(100% - 50%);
+    float: left;
+    margin-left: 13%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+/* student single infromation show */
+
+.student_single_data {
+    float: left;
+    width: calc(100% - 33%);
+    margin-left: 20px;
+}
+
+.student_single_data {
+    position: relative;
+    padding: 0 29px;
+}
+
+.student_image {
+    position: absolute;
+    top: 48px;
+    right: -208px;
+    /*! border-radius: 51px; */
+    border: 2px solid #8e8383;
+    padding: 2px;
+}
+
+
+/* result_input_section */
+
+.result_input_section {
+    width: calc(100% - 50%);
+    float: left;
+    margin-left: 16%;
+    /*! margin: 0 auto; */
+    border: 1px solid #ddd;
+    padding: 34px;
+}
+
+
+/* result_data_table */
+
+.result_data_table {
+    width: calc(100% - 50%);
+    float: left;
+    margin-left: 16%;
+    border: 1px solid #bababa;
+    padding: 32px 25px;
+}
+
+.active {
+    background-color: yellow;
+    color: red;
+    border: 2px solid #00b7ff;
+}
+
+
+/* maincontent_section */
+
+.maincontent_section {
+    width: calc(100% - 15%);
+    float: left;
+}
+
+
+/* student_result_search */
+
+.student_result_search form {
+    width: 40%;
+    margin: 0 0 0 auto;
+}
